@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="191e88c5-a133-4671-a320-0ddbab3667c2" name="Default Changelist" comment="gfgfdg">
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microblog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flask_website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/clothes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/clothes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/not_found_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/not_found_404.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b7uSMO4N860gvmZgemehxPo3MW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.routes">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.routes" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="191e88c5-a133-4671-a320-0ddbab3667c2" name="Default Changelist" comment="" />
+      <created>1587995451100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587995451100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="117" width="732" height="632" key="#Inspections" timestamp="1593788284661">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="349" y="117" width="732" height="632" key="#Inspections/0.0.1440.873@0.0.1440.873" timestamp="1593788284661" />
+    <state x="515" y="297" width="400" height="272" key="#Scopes" timestamp="1593763847019">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="515" y="297" width="400" height="272" key="#Scopes/0.0.1440.873@0.0.1440.873" timestamp="1593763847019" />
+    <state x="716" y="456" width="467" height="249" key="#Updates" timestamp="1591357993381">
+      <screen x="0" y="0" width="1920" height="1173" />
+    </state>
+    <state x="716" y="456" width="467" height="249" key="#Updates/0.0.1920.1173@0.0.1920.1173" timestamp="1591357993381" />
+    <state x="424" y="240" width="582" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594026894042">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="424" y="240" width="582" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.873@0.0.1440.873" timestamp="1594026894042" />
+    <state x="643" y="325" width="624" height="515" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591357893795">
+      <screen x="0" y="0" width="1920" height="1173" />
+    </state>
+    <state x="643" y="325" width="624" height="515" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1173@0.0.1920.1173" timestamp="1591357893795" />
+    <state x="544" y="133" width="1252" height="886" key="CommitChangelistDialog2" timestamp="1588336129449">
+      <screen x="0" y="0" width="1920" height="1173" />
+    </state>
+    <state x="544" y="133" width="1252" height="886" key="CommitChangelistDialog2/0.0.1920.1173@0.0.1920.1173" timestamp="1588336129449" />
+    <state x="100" y="99" width="1240" height="673" key="DiffContextDialog" timestamp="1594021567367">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="100" y="99" width="1240" height="673" key="DiffContextDialog/0.0.1440.873@0.0.1440.873" timestamp="1594021567367" />
+    <state x="743" y="330" width="424" height="505" key="FileChooserDialogImpl" timestamp="1593370246299">
+      <screen x="0" y="0" width="1920" height="1173" />
+    </state>
+    <state x="557" y="246" key="FileChooserDialogImpl/0.0.1440.873@0.0.1440.873" timestamp="1592392413755" />
+    <state x="743" y="330" width="424" height="505" key="FileChooserDialogImpl/0.0.1920.1173@0.0.1920.1173" timestamp="1593370246299" />
+    <state width="1418" height="147" key="GridCell.Tab.0.bottom" timestamp="1594023637775">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state width="1418" height="147" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1594023637775" />
+    <state width="1898" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1173@0.0.1920.1173" timestamp="1593710596559" />
+    <state width="1418" height="147" key="GridCell.Tab.0.center" timestamp="1594023637774">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state width="1418" height="147" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1594023637774" />
+    <state width="1898" height="217" key="GridCell.Tab.0.center/0.0.1920.1173@0.0.1920.1173" timestamp="1593710596559" />
+    <state width="1418" height="147" key="GridCell.Tab.0.left" timestamp="1594023637774">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state width="1418" height="147" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1594023637774" />
+    <state width="1898" height="217" key="GridCell.Tab.0.left/0.0.1920.1173@0.0.1920.1173" timestamp="1593710596559" />
+    <state width="1418" height="147" key="GridCell.Tab.0.right" timestamp="1594023637774">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state width="1418" height="147" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1594023637774" />
+    <state width="1898" height="217" key="GridCell.Tab.0.right/0.0.1920.1173@0.0.1920.1173" timestamp="1593710596559" />
+    <state x="407" y="241" width="704" height="543" key="IDE.errors.dialog" timestamp="1593502695898">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="407" y="241" width="704" height="543" key="IDE.errors.dialog/0.0.1440.873@0.0.1440.873" timestamp="1593502695898" />
+    <state x="543" y="324" width="824" height="518" key="IDE.errors.dialog/0.0.1920.1173@0.0.1920.1173" timestamp="1591364769842" />
+    <state x="353" y="143" key="SettingsEditor" timestamp="1594021809409">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="353" y="143" key="SettingsEditor/0.0.1440.873@0.0.1440.873" timestamp="1594021809409" />
+    <state x="485" y="235" key="SettingsEditor/0.0.1920.1173@0.0.1920.1173" timestamp="1593279533409" />
+    <state x="404" y="227" width="622" height="412" key="git4idea.merge.GitPullDialog" timestamp="1594020850087">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="404" y="227" width="622" height="412" key="git4idea.merge.GitPullDialog/0.0.1440.873@0.0.1440.873" timestamp="1594020850087" />
+    <state x="445" y="330" width="540" height="205" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594021762548">
+      <screen x="0" y="0" width="1440" height="873" />
+    </state>
+    <state x="445" y="330" width="540" height="205" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.873@0.0.1440.873" timestamp="1594021762548" />
+  </component>
+</project>
