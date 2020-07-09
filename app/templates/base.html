@@ -19,7 +19,11 @@
         <a class="p-2 text-dark" href="/news">Новини</a>
         <a class="p-2 text-dark" href="/about">О нас</a>
     </nav>
+    {% if current_user.is_anonymous %}
     <a class="btn btn-outline-primary" href="/login">Вхід/Реєстрація</a>
+    {% else %}
+    <a class="btn btn-outline-primary" href="/logout">Вихід</a>
+    {% endif %}
 </div>
 {% with messages = get_flashed_messages() %}
 {% if massages %}
