@@ -80,9 +80,9 @@ def register():
 @login_required
 def user(username):
     user_name = User.query.filter_by(username=username).first_or_404()
-    user_title = User.username
-    # title = 'Кабінет користувача - '
-    return render_template('user.html', user=user_name, user_title=type(user_title))
+    user_title = User.query.filter_by(username=username).first()
+    title = 'Кабінет користувача - {}'.format(user_title)
+    return render_template('user.html', user=user_name, title=title)
 
 
 @app.errorhandler(404)
