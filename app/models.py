@@ -23,6 +23,9 @@ class User(db.Model, UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
+    def __str__(self):
+        return self.username
+
 
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)

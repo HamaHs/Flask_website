@@ -12,6 +12,9 @@ from app.models import User
 def main_page():
     return render_template('index.html', title='Головна сторінка')
 
+# with app.test_request_context():
+#     print(url_for('main_page'))
+
 
 @app.route('/news')
 def news():
@@ -73,10 +76,15 @@ def register():
     return render_template('register.html', title='Register', form=form)
 
 
+@app.route('/user/<username>')
+@login_required
+def user(username):
+    user_name = User.query.filter_by(username=username).first_or_404()
+    user_title = User.username
+    # title = 'Кабінет користувача - '
+    return render_template('user.html', user=user_name, user_title=type(user_title))
+
+
 @app.errorhandler(404)
 def not_found():
     return render_template('not_found_404.html')
-
-
-if __name__ == '__main__':
-    app.run()

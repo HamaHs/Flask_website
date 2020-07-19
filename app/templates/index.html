@@ -7,8 +7,27 @@
 </head>
 <body>
 {% block body %}
-    {% if current_user.is_authenticated %}
-        <h1>Hi, {{ current_user.username }}!</h1>
-    {% endif %}
+    <div class="jumbotron text-center">
+        <h1>My first Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Column 1</h2>
+                <p>Це перша колонка з текстом, тут може бути що завгодно</p>
+                <p>Тут може бути ще текст</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Column 2</h2>
+                <p>Це друга колонка з текстом, тут може бути що завгодно</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Column 3</h2>
+                <p>Це третя колонка з текстом, тут може бути що завгодно</p>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 </body>
