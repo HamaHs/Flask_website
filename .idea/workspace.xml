@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191e88c5-a133-4671-a320-0ddbab3667c2" name="Default Changelist" comment="gfgfdg">
+      <change afterPath="$PROJECT_DIR$/app/templates/edit_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/microblog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/50205f19e498_user_and_post_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/50205f19e498_user_and_post_table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +49,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,28 +60,7 @@
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.microblog">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="flask_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,13 +145,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.microblog" />
         <item itemvalue="Python.routes" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.config" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -216,25 +227,25 @@
     </state>
     <state x="557" y="246" key="FileChooserDialogImpl/0.0.1440.873@0.0.1440.873" timestamp="1592392413755" />
     <state x="743" y="330" width="424" height="505" key="FileChooserDialogImpl/0.0.1920.1173@0.0.1920.1173" timestamp="1593370246299" />
-    <state width="1418" height="198" key="GridCell.Tab.0.bottom" timestamp="1594898054088">
+    <state width="1418" height="198" key="GridCell.Tab.0.bottom" timestamp="1595253831554">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
-    <state width="1418" height="198" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1594898054088" />
+    <state width="1418" height="198" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1595253831554" />
     <state width="1418" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1173@0.0.1920.1173" timestamp="1594319663860" />
-    <state width="1418" height="198" key="GridCell.Tab.0.center" timestamp="1594898054087">
+    <state width="1418" height="198" key="GridCell.Tab.0.center" timestamp="1595253831554">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
-    <state width="1418" height="198" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1594898054087" />
+    <state width="1418" height="198" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1595253831554" />
     <state width="1418" height="198" key="GridCell.Tab.0.center/0.0.1920.1173@0.0.1920.1173" timestamp="1594319663860" />
-    <state width="1418" height="198" key="GridCell.Tab.0.left" timestamp="1594898054087">
+    <state width="1418" height="198" key="GridCell.Tab.0.left" timestamp="1595253831554">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
-    <state width="1418" height="198" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1594898054087" />
+    <state width="1418" height="198" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1595253831554" />
     <state width="1418" height="198" key="GridCell.Tab.0.left/0.0.1920.1173@0.0.1920.1173" timestamp="1594319663860" />
-    <state width="1418" height="198" key="GridCell.Tab.0.right" timestamp="1594898054088">
+    <state width="1418" height="198" key="GridCell.Tab.0.right" timestamp="1595253831554">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
-    <state width="1418" height="198" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1594898054088" />
+    <state width="1418" height="198" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1595253831554" />
     <state width="1418" height="198" key="GridCell.Tab.0.right/0.0.1920.1173@0.0.1920.1173" timestamp="1594319663860" />
     <state width="1418" height="274" key="GridCell.Tab.1.bottom" timestamp="1594213405127">
       <screen x="0" y="0" width="1440" height="873" />
@@ -257,10 +268,10 @@
     </state>
     <state x="407" y="241" width="704" height="543" key="IDE.errors.dialog/0.0.1440.873@0.0.1440.873" timestamp="1593502695898" />
     <state x="543" y="324" width="824" height="518" key="IDE.errors.dialog/0.0.1920.1173@0.0.1920.1173" timestamp="1591364769842" />
-    <state x="353" y="143" key="SettingsEditor" timestamp="1594021809409">
+    <state x="353" y="143" key="SettingsEditor" timestamp="1595574131525">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
-    <state x="353" y="143" key="SettingsEditor/0.0.1440.873@0.0.1440.873" timestamp="1594021809409" />
+    <state x="353" y="143" key="SettingsEditor/0.0.1440.873@0.0.1440.873" timestamp="1595574131525" />
     <state x="485" y="235" key="SettingsEditor/0.0.1920.1173@0.0.1920.1173" timestamp="1593279533409" />
     <state x="404" y="227" width="622" height="412" key="git4idea.merge.GitPullDialog" timestamp="1594020850087">
       <screen x="0" y="0" width="1440" height="873" />

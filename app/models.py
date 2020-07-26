@@ -1,9 +1,12 @@
-from app import db
 from datetime import datetime
-from werkzeug.security import generate_password_hash, check_password_hash
+
 from flask_login import UserMixin
+from werkzeug.security import generate_password_hash, check_password_hash
+
+from app import db
 from app import login
 
+import urllib, hashlib
 
 
 class User(db.Model, UserMixin):
@@ -11,6 +14,7 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
+    about_me = db.Column(db.String(140))
     posts = db.relationship('Post', backref='author', lazy='dynamic')
 
     def __repr__(self):
@@ -23,8 +27,11 @@ class User(db.Model, UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
-    def __str__(self):
-        return self.username
+    def avatar(self, size):
+        gra_avatar = "https://www.gravatar.com/avatar/" + \
+                     hashlib.md5(str(self.email).lower().encode('utf-8')).hexdigest() + '?'
+        gra_avatar += urllib.parse.urlencode({'s':str(size)})
+        return gra_avatar
 
 
 class Post(db.Model):
