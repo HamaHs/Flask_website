@@ -21,7 +21,7 @@ def news():
 
 
 @app.route('/clothes')
-@login_required
+# @login_required
 def clothes():
     return render_template('clothes.html')
 
@@ -96,8 +96,3 @@ def edit_profile():
         form.username.data = current_user.username
         form.about_me.data = current_user.about_me
     return render_template('edit_profile.html', form=form)
-
-
-@app.errorhandler(404)
-def not_found(error):
-    return render_template('not_found_404.html')

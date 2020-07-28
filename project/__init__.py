@@ -16,4 +16,4 @@ login.login_view = '/login'  # якщо користувач заходить н
 # то ця функція перенаправить його на сторінку входа
 
 
-from app import routes, models
+from project import routes, models, errors
